@@ -1,0 +1,56 @@
+module Base
+{
+ 
+	
+
+
+    item Hat_SwatHelmet
+	{
+	Type = Clothing,
+	DisplayName = SWAT Helmet,
+	ClothingItem = Hat_SwatHelmet,
+	BodyLocation = Hat,
+	Icon = Hat_SwatHelmet,
+	CanHaveHoles = false,
+	BloodLocation = Head,
+	BiteDefense = 100,
+	ScratchDefense = 100,
+	Insulation = 0.45,
+	WaterResistance = 0.40,
+        Weight = 1.5,
+    }
+	
+	    item Glasses_SwatGoggles
+   	{
+	Type = Clothing,
+	DisplayName = Swat Protection Goggles,
+	ClothingItem = Glasses_SwatGoggles,
+	BodyLocation = Eyes,
+	Icon = SwatGoggles,
+	CombatSpeedModifier = 1.1,
+	Weight = 0.1,
+    }
+	
+    item Hat_PoliceRiotHelmet
+    {
+	Type = Clothing,
+	DisplayName = Police Riot Helmet,
+	ClothingItem = Hat_PoliceRiotHelmet,
+	BodyLocation = Hat,
+	Icon = Hat_PoliceRiotHelmet,
+	BloodLocation = FullHelmet,
+        NeckProtectionModifier = 0.7,
+	CanHaveHoles = false,
+	CombatSpeedModifier = 0.95,
+	BiteDefense = 100,
+      	ScratchDefense = 100,
+       	Insulation = 0.45,
+        WindResistance = 0.65,
+        WaterResistance = 1.0,
+        Weight = 2,
+	}
+
+
+	
+}
+
